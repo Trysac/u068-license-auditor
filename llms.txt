@@ -1,16 +1,15 @@
 # license-auditor
 
-> Audit dependency licenses against an allowlist policy with SPDX license expressions, PEP 639 metadata and conservative classifier mapping Python package `trysac-license-auditor`, import name `license_auditor`, MIT licensed,
-> Python >= 3.10, no runtime dependencies.
+> Audit dependency licenses against an allowlist policy with SPDX license expressions, PEP 639 metadata and conservative classifier mapping. Python package `trysac-license-auditor`, import name `license_auditor`, MIT licensed, Python >= 3.10, no runtime dependencies.
 
 ## Docs
 
-- [README](README.md): problem, install, usage example
-- [AGENTS](AGENTS.md): commands, folder map, conventions, limits
-- [Architecture](docs/ARCHITECTURE.md): shape of the package and its public API
-- [Testing](docs/TESTING.md): how to run and extend the tests
+- [README](README.md): problem, install, usage example, public API
+- [Architecture](docs/ARCHITECTURE.md): modules and public API
+- [Security](docs/SECURITY.md): threat model and limits
+- [Testing](docs/TESTING.md): how to run the tests
 
 ## Optional
 
 - [Stack](docs/STACK.md): tools used and discarded
-- [Changelog](CHANGELOG.md): release history
+- [Project](docs/PROJECT.md): objective and scope
