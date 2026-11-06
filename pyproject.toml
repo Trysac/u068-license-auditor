@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+license-auditor = "license_auditor.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u068-license-auditor"
 Source = "https://github.com/Trysac/u068-license-auditor"
